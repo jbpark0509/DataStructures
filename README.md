@@ -3,7 +3,7 @@ Implementations of common data structures using Java.
 
 ## Array List
 
-#### Advatanges
+#### Advantages
 
 * Fast search when index is known.
 * Fast insertion and removal at the end of list.
