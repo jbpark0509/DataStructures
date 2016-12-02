@@ -1,19 +1,19 @@
-# DataStructures
+# Data Structures
 Implementations of common data structures using Java.
 
 ## Array List
 
 #### Advantages
 
-* Random index accessing. Fast search when index is known.
-* Fast insertion and removal at the end of list.
+* Random index accessing. O(1) search when index is known.
+* O(1) insertion and removal at the end of list.
 
 #### Disadvantages
 
 * Static size. Resize must occur when no space available in Array List.
 * Bad Memory Management. We may need to allocate more memory than is required.
-* Slow insertion and removal by index.
-* Slow search by element.
+* O(n) insertion and removal by index.
+* O(n) search by element.
 
 #### Run Time
 
@@ -25,6 +25,7 @@ Remove at the end of list | O(1) assuming resize is not needed. O(n) if resize i
 Remove at specific index(i) | O(n) to decrement all elements at index > i.
 Search by element | O(n) to traverse through array.
 Search by index | O(1).
+
 
 ## Single Linked List
 
@@ -48,6 +49,7 @@ Remove at the beginning of list | O(1) to change root reference.
 Remove at specific index(i) | O(n) to traverse through list and find node at index i.
 Search by element | O(n) to traverse through list and find element.
 Search by index | O(n) to traverse through list and find node at index i.
+
 
 ## Double Linked List
 
