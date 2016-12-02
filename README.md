@@ -35,16 +35,41 @@ Search by index | O(1).
 
 #### Disadvantages
 * Needs to store reference to the next node.
-* O(n) to insert, remove, and search by index.
+* O(n) to insert, remove, and search at specific index.
 * No random index access. Slow search even if index is known.
 
 #### Run Time
 
 Process | Run Time
 ------ | -----------
-Insert at the beginning of list | O(1) to change root.
+Insert at the beginning of list | O(1) to change root reference.
 Insert at specific index(i) | O(n) to traverse through list and find node at index i.
-Remove at the beginning of list | O(1) to change root.
+Remove at the beginning of list | O(1) to change root reference.
+Remove at specific index(i) | O(n) to traverse through list and find node at index i.
+Search by element | O(n) to traverse through list and find element.
+Search by index | O(n) to traverse through list and find node at index i.
+
+## Double Linked List
+
+#### Advantages
+
+* O(1) insertion and deletion in the beginning and end of list.
+* Dynamic sizing.
+
+#### Disadvantages
+* Needs to store references to the next node.
+* O(n) to insert, remove, and search by at specific index.
+* No random index access. Slow search even if index is known.
+
+#### Run Time
+
+Process | Run Time
+------ | -----------
+Insert at the beginning of list | O(1) to change head reference.
+Insert at the end of list | O(1) to change tail reference.
+Insert at specific index(i) | O(n) to traverse through list and find node at index i.
+Remove at the beginning of list | O(1) to change head reference.
+Remove at the end of list | O(1) to change tail reference.
 Remove at specific index(i) | O(n) to traverse through list and find node at index i.
 Search by element | O(n) to traverse through list and find element.
 Search by index | O(n) to traverse through list and find node at index i.
