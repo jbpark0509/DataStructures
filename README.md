@@ -76,5 +76,15 @@ Remove at specific index(i) | O(n) to traverse through list and find node at ind
 Search by element | O(n) to traverse through list and find element.
 Search by index | O(n) to traverse through list and find node at index i.
 
+## Stack (Implemented with Single Linked List)
+
+#### Run Time
+
+Process | Run Time
+------ | -----------
+Push | O(1)
+Pop | O(1)
+Peek | O(1)
+
 ## Author
 Jeong Park <jbpark0509@hotmail.com>
