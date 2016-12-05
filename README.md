@@ -115,5 +115,28 @@ Insert | O(lg n) average. O(n) worst case.
 Remove | O(lg n) average. O(n) worst case.
 Search | O(lg n) average. O(n) worst case.
 
+
+## Avl Tree
+
+#### Advantages
+
+* Keeps the tree balanced.
+* Keeps the nodes in sorted order. (Can traverse the tree in different orders e.g. pre-order, in-order, post-order traversals)
+* Insert, remove, and search operations take O(lg n).
+* Dynamically sized.
+
+#### Disadvantages
+
+* Time to balance tree.
+* Implementation difficulty.
+
+#### Run Time
+
+Process | Run Time
+------ | -----------
+Insert | O(lg n)
+Remove | O(lg n)
+Search | O(lg n)
+
 ## Author
 Jeong Park <jbpark0509@hotmail.com>
