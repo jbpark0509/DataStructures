@@ -8,6 +8,8 @@ public class Node<T extends Comparable<T>> {
     private T data;
     private Node<T> leftChild;
     private Node<T> rightChild;
+    private Node<T> parent;
+
     private int height;
 
     public Node(T data) {
@@ -36,6 +38,14 @@ public class Node<T extends Comparable<T>> {
 
     public void setRightChild(Node<T> rightChild) {
         this.rightChild = rightChild;
+    }
+
+    public Node<T> getParent() {
+        return parent;
+    }
+
+    public void setParent(Node<T> parent) {
+        this.parent = parent;
     }
 
     public int getHeight() {

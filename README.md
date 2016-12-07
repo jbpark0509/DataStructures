@@ -138,5 +138,25 @@ Insert | O(lg n)
 Remove | O(lg n)
 Search | O(lg n)
 
+## Avl Tree
+
+#### Advantages
+
+* Fast search operation for frequently accessed nodes (caching).
+* Keeps the nodes in sorted order. (Can traverse the tree in different orders e.g. pre-order, in-order, post-order traversals)
+* Dynamically sized.
+
+#### Disadvantages
+
+* Insert, remove, and search operations can take up to O(n) in the worst case if tree is not balanced.
+
+#### Run Time
+
+Process | Run Time
+------ | -----------
+Insert | O(lg n) average. O(n) worst case.
+Remove | O(lg n) average. O(n) worst case.
+Search | O(lg n) average. O(n) worst case.
+
 ## Author
 Jeong Park <jbpark0509@hotmail.com>
