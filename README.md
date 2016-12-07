@@ -138,7 +138,7 @@ Insert | O(lg n)
 Remove | O(lg n)
 Search | O(lg n)
 
-## Avl Tree
+## Splay Tree
 
 #### Advantages
 
