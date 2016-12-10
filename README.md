@@ -158,5 +158,26 @@ Insert | O(lg n) average. O(n) worst case.
 Remove | O(lg n) average. O(n) worst case.
 Search | O(lg n) average. O(n) worst case.
 
+## Hash Table
+
+#### Advantages
+
+* Fast insert, remove, search operations.
+* Good for look up tables.
+
+#### Disadvantages
+
+* Needs to handle collisions.
+* Unsorted data.
+* Statically sized. Takes O(n) to increase the hash table size.
+
+#### Run Time
+
+Process | Run Time
+------ | -----------
+Insert | O(1) average. O(n) worst case.
+Remove | O(1) average. O(n) worst case.
+Search | O(1) average. O(n) worst case.
+
 ## Author
 Jeong Park <jbpark0509@hotmail.com>
